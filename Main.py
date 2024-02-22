@@ -7,8 +7,8 @@ import assignments
 
 
 def sms_main(my_num):
-    Account_SID = "AC333eb2b4e2d12197aad4cff3d16a8a59"
-    Auth_Tocken = "a4f7e03cfbce4a3d7f8a5f7aa5e1809a"
+    Account_SID = "ACCOUNT_SID"
+    Auth_Tocken = "AUTH_TOCKEN"
 
     twiliocli = Client(Account_SID, Auth_Tocken)
 
